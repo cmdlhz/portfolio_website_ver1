@@ -1,0 +1,38 @@
+@import './0-2_mixins.scss';
+
+*{
+    box-sizing: border-box;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 0;
+    background-color: $background_color;
+}
+
+header{
+    grid-column: 1/13;
+}
+
+.title{
+    grid-column: 1/13;
+}
+
+footer{
+    grid-column: 1/13;
+}
+
+#error_page_icon{
+    grid-column: 6/8;
+    color: red;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#error_msg{
+    grid-column: 4/10;
+    color: #db4b46;
+    text-align: center;
+}

@@ -1,0 +1,195 @@
+@import '../0_shared/0-6_footer.scss';
+
+form{
+    display: flex;
+    flex-direction: column;
+    // margin: 0 10vw;
+}
+
+label{
+    color: $theme_color;
+    margin-left: 0.5vw;
+}
+
+input{
+    font-size: 1.1em;
+    border: 0.5vw solid transparent; 
+    border-radius: 5px;
+}
+
+.input_container{
+    position:relative;
+}
+
+.input_icon_form {
+    @include input_icon;
+    top: 42px;
+    background-color: $header_and_footer_background; 
+}
+
+.acct_input{
+    @include input_type_text;
+    background-color: $header_and_footer_background;
+}
+
+.invalid{
+    outline: none;
+    border: 2px solid red;
+    padding: 5px 0;
+}
+
+.acct_form_info {
+	@include comment_info;
+}
+
+.comment_invalid{
+	text-indent: 5px;
+	margin-top: 0;
+    color: red;
+    font-style: italic;
+}
+
+.hidden{
+    display: none;
+}
+
+input[type=checkbox]{
+    margin: 1.5vh 0 3vh 0;
+}
+
+input[type=submit]{
+    background-color: $theme_color;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.or_divider{
+    // top right bottom left
+    // margin: 50px 10vw 0 10vw;
+    margin-top: 50px;
+    text-align: center;
+    border-top: 1px solid black;
+}
+
+.or_divider_text{
+    color: rgba(0, 0, 0, 0.54);
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    padding: 8px;
+    background: $background_color;
+    margin: 0 auto;
+    position: relative;
+    top: -25px;
+}
+
+.acct_section{
+    grid-column: 3/11;
+}
+
+.social_acct_div{
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.social_icons{
+    display: flex;
+    flex-direction: row;
+    // top right bottom left
+    margin: 0 5px 20px 5px;
+    border-radius: 5px;
+    border: 1px solid $gray_line;
+    box-shadow: $gray_line 0px 1px 2px;
+
+    &:hover{
+        cursor: pointer;
+    }
+
+    div{
+        height: 40px;
+        
+        a{
+            text-decoration: none;
+        }
+    }
+}
+
+#btn_kakaotalk{
+    > .social_icons_left{
+        @include social_icons_left_img;
+        background-color: #ffe812;
+    }
+    > .social_icons_right{
+        @include social_icons_right;
+        background-color: #ffe812;
+        p{
+            color: black;
+        }
+        &:hover{
+            background-color: #ffd712;
+        }
+    }
+}
+
+#btn_facebook{
+    > .social_icons_left{
+        @include social_icons_left;
+        background-color: #3b5998;
+        
+        >i{
+            padding-left: 6px;
+        }
+    }
+    > .social_icons_right{
+        @include social_icons_right;
+        background-color: #3b5998;
+        &:hover{
+            background-color: #1a469e;
+        }
+    }
+}
+
+#btn_github{
+    > .social_icons_left{
+        @include social_icons_left;
+        background-color: #24292e;
+    }
+    > .social_icons_right{
+        @include social_icons_right;
+        background-color: #24292e;
+        &:hover{
+            background-color: #0a0b0c;
+        }
+    }
+}
+
+#btn_google{
+    > .social_icons_left{
+        @include social_icons_left;
+        background-color: #DB4437;
+    }
+    > .social_icons_right{
+        @include social_icons_right;
+        background-color: #DB4437;
+        &:hover{
+            background-color: #ff0505;
+        }
+    }
+}
+
+#btn_twitter{
+    > .social_icons_left{
+        @include social_icons_left;
+        background-color: #38A1F3;
+    }
+    > .social_icons_right{
+        @include social_icons_right;
+        background-color: #38A1F3;
+        &:hover{
+            background-color: #0088f2;
+        }
+    }
+}

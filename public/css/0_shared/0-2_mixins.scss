@@ -1,0 +1,220 @@
+@import './0-1_variables.scss';
+
+@mixin comment_info{
+	text-indent: 5px;
+    margin-top: 0;
+    color: #727475;
+    font-style: italic;
+}
+
+@mixin nav_link_click{
+	text-decoration: none;
+	
+	&:link{
+		color: black;
+	}
+	&:visited{
+		color: black;
+	}
+	&:hover{
+		color: $theme_color;
+	}
+	&:active{
+		color: $theme_color;
+	}
+}
+
+// https://css-tricks.com/solved-with-css-dropdown-menus/
+// https://codepen.io/hlim18/pen/OdeOmE?editors=1100
+@mixin submenu_nav{
+	list-style-type: none;
+	background: red;
+	min-width: 5rem;
+	display: none;
+	z-index: 0;
+	position: absolute;
+	transition: all 0.5s ease;
+	margin-top: 19px;
+	left: 0;
+	padding-left: 0;
+	outline: 1px solid $darker_background_color;
+
+	// &:hover{
+	// 	display: block;
+	// }
+	// &:focus-within {
+	// 	display: block;
+	// }
+	>li{
+		float: none;
+		clear: both;
+		width: 120px;
+		padding-left: 30px;
+		padding-bottom: 5px;
+
+		&:first-of-type{
+			padding-top: 5px;
+		}
+
+		&:hover{
+			background: $header_and_footer_background;
+		}
+		&:focus-within {
+			background: $header_and_footer_background;
+		}
+
+		> a{
+			text-decoration: none;
+	
+			&:link{
+				color: black;
+			}
+			&:visited{
+				color: black;
+			}
+			&:hover{
+				color: $theme_color;
+			}
+			&:active{
+				color: $theme_color;
+			}
+		}
+	}
+}
+
+// https://30-seconds.github.io/30-seconds-of-css/#hover-underline-animation
+@mixin navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+	margin: 0;
+
+	> li{
+		position: relative;
+		display: inline-block;
+		cursor: pointer;
+		margin-right: 3vw;
+		padding-top: 2%;
+		font-size: 1.2em;
+		text-transform: uppercase;
+
+		>i{
+			position: absolute;
+			top: 14px;
+		}
+
+		>a{
+			@include nav_link_click;
+			margin-left: 30px;
+		}
+
+		&:last-of-type{
+			margin-right: 0;
+		}
+
+		&:hover{
+			color: $theme_color;
+
+			// > ul{
+			// 	display: block;
+			// }
+
+			&::after{
+				transform: scaleX(1);
+				transform-origin: top left;
+			}
+		}
+
+		&:focus-within{
+			color: $theme_color;
+
+			// > ul{
+			// 	display: block;
+			// }
+
+			&::after{
+				transform: scaleX(1);
+				transform-origin: top left;
+			}
+		}
+
+		&::after{
+			content: '';
+			position: absolute;
+			width: 100%;
+			transform: scaleX(0);
+			height: 2px;
+			top: 0;
+			left: 0;
+			background-color: $theme_color;
+			transform-origin: top right;
+			transition: transform 0.25s ease-out;
+			// ease-out: fast/abrupt at the beginning, slow at the end
+			// ease-out: when things are moving in.
+		}
+	}
+}
+
+@mixin input_icon{
+	position: absolute;
+    left: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+@mixin input_type_text{
+	text-indent: 40px;
+    // top right bottom left
+    // top & bottom, right & left
+    margin: 10px 0;
+    width: 100%;
+
+    &:focus {
+        outline: none !important;
+        border: 2px solid $theme_color;
+        padding: 5px 0;
+    }
+}
+
+@mixin social_icons_left{
+	// top-left top-right bottom-right bottom-left
+	border-radius: 5px 0 0 5px;
+	border-right: 1px solid $gray_line;
+
+	i{
+		width: 40px;
+		padding-top: 4px;
+        padding-left: 5px;
+		color: white;
+	}
+}
+
+@mixin social_icons_left_img{
+	// top-left top-right bottom-right bottom-left
+	border-radius: 5px 0 0 5px;
+	border-right: 1px solid $gray_line;
+
+	img{
+		width: 40px;
+		padding-top: 4px;
+        padding-left: 4px;
+		color: white;
+	}
+}
+
+@mixin social_icons_right{
+	// top-left top-right bottom-right bottom-left
+	border-radius: 0 5px 5px 0;
+	// !!!!! different width for @media
+	width: 27vw;
+
+	p{
+		// top right bottom left
+		padding: 7px 0 7px 20px;
+		margin: 0;
+		color: white;
+		vertical-align: middle;
+	}
+}

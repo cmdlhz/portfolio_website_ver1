@@ -1,0 +1,21 @@
+@import './4-2_signup.scss';
+
+.input_container{
+    >span{
+        float: right;
+    }
+
+    a{
+        color: $darker_gray_line;
+        text-decoration: none;
+    }
+    i{
+        color: $darker_gray_line;
+    }
+}
+
+#persist_login_label{
+    input{
+        margin-right: 5px;
+    }
+}

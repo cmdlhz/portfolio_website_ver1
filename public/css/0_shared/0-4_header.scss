@@ -1,0 +1,78 @@
+// https://webinista.com/updates/dont-use-extend-sass/ 
+
+@import './0-3_overall.scss';
+
+header{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5px;
+    justify-content: space-between;
+    background-color: $header_and_footer_background;
+    width: 100%;
+}
+
+#header_left{
+    @include navigation;
+    padding-left: 2vw;
+    background-color: $header_and_footer_background;
+    >li{
+        background-color: $header_and_footer_background;
+        >i{
+            background-color: $header_and_footer_background;
+        }
+        >a{
+            background-color: $header_and_footer_background;
+        }
+    }
+}
+
+#header_middle{
+    padding-left: 0;
+    margin-bottom: 0;
+    background-color: $header_and_footer_background;
+    >a{
+        background-color: $header_and_footer_background;
+        >img{
+            width: 50px;
+            height: 50px;
+            background-color: $header_and_footer_background;
+            transition: transform 0.5s ease-in;
+            
+            &:hover{
+                transform: scale(1.3);
+            }
+        }
+    }
+}
+
+#header_right{
+    @include navigation;
+    padding-right: 2vw;
+    display: flex;
+    justify-content: flex-end;
+
+    // // for submenu, look at @submenu_nav mixin
+    // BUT background color of the submenu is covered below:
+    background-color: $header_and_footer_background;
+    >li{
+        background-color: $header_and_footer_background;
+        >i{
+            background-color: $header_and_footer_background;
+        }
+        >a{
+            background-color: $header_and_footer_background;
+        }
+        #header_dropdown_content{
+			@include submenu_nav;
+		}
+    }
+}
+
+.dropdown{
+    overflow: hidden;
+}
+
+.show{
+    display: block;
+    z-index: 10;
+}
