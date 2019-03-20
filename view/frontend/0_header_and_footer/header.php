@@ -2,7 +2,7 @@
     <ul id="header_left">
         <li>
             <i class="material-icons">work</i>
-            <a href="index.php?action=signup">Work</a>
+            <a href="index.php?action=work">Work</a>
         </li>
         <li>
             <i class="material-icons">create</i>
@@ -10,9 +10,9 @@
         </li>
     </ul>
     <ul id="header_middle">
-        <a href="index.php?action=signup">
-            <img src="public/images/zozor_logo.png" alt="zozor_logo"/>
-        </a>
+        <canvas id="canvas_logo" width="49" height="49">
+            <p>Logo</p>
+        </canvas>
     </ul>
     <ul id="header_right">
         <li class="dropdown">

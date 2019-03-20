@@ -5,7 +5,7 @@
             <img src="public/images/sns/kakaotalk.png" alt="kakaotalk">
         </div>
         <div class="social_icons_right social_parts">
-            <p><a href="https://kauth.kakao.com/oauth/authorize?client_id=948c4b7cb83e566ada606d8298a09ff0&redirect_uri=http://localhost:8888/Software_Dev/GitHub/portfolio_website/index.php?action=login_kakao&response_type=code">Sign up with Kakaotalk</a></p>
+            <p><a href="https://kauth.kakao.com/oauth/authorize?client_id=948c4b7cb83e566ada606d8298a09ff0&redirect_uri=http://localhost:8888/index.php?action=login_kakao&response_type=code">Sign up with Kakaotalk</a></p>
         </div>
     </div>
     <div id="btn_facebook" class="social_icons">
@@ -38,6 +38,14 @@
         </div>
         <div class="social_icons_right">
             <p>Sign up with Twitter</p>
+        </div>
+    </div>
+    <div id="btn_whatsapp" class="social_icons">
+        <div class="social_icons_left">
+            <i class="fab fa-whatsapp fa-2x"></i>
+        </div>
+        <div class="social_icons_right">
+            <p>Sign up with Whatsapp</p>
         </div>
     </div>
 </div>

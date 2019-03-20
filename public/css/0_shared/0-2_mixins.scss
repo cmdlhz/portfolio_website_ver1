@@ -97,12 +97,11 @@
 		cursor: pointer;
 		margin-right: 3vw;
 		padding-top: 2%;
-		font-size: 1.2em;
+		font-size: 17px;
 		text-transform: uppercase;
 
 		>i{
 			position: absolute;
-			top: 14px;
 		}
 
 		>a{
@@ -117,9 +116,9 @@
 		&:hover{
 			color: $theme_color;
 
-			// > ul{
-			// 	display: block;
-			// }
+			> a{
+				color: $theme_color;
+			}
 
 			&::after{
 				transform: scaleX(1);

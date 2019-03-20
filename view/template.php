@@ -14,5 +14,6 @@
     <?php require("view/frontend/0_header_and_footer/header.php");?>
     <?=$content?>
     <?php require("view/frontend/0_header_and_footer/footer.php");?>
+    <script src="public/js/frontend/0_header_and_footer/logo.js"></script>
 </body>
 </html>

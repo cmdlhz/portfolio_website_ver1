@@ -4,11 +4,14 @@ if(session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
+require("controller/frontend/1_work.php");
 require("controller/frontend/4_acct.php");
 
 try{
     if(isset($_REQUEST['action'])){
-        if($_REQUEST['action'] == 'signup'){
+        if($_REQUEST['action'] == 'work'){
+            work_list();
+        } elseif($_REQUEST['action'] == 'signup'){
             signup_page();
         } elseif($_REQUEST['action'] == 'after_signup' OR $_REQUEST['action'] == 'login'){
             login_page();
