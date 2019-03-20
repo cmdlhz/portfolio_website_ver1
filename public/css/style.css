@@ -60,12 +60,11 @@ header {
   cursor: pointer;
   margin-right: 3vw;
   padding-top: 2%;
-  font-size: 1.2em;
+  font-size: 17px;
   text-transform: uppercase;
 }
 #header_left > li > i {
   position: absolute;
-  top: 14px;
 }
 #header_left > li > a {
   text-decoration: none;
@@ -87,6 +86,9 @@ header {
   margin-right: 0;
 }
 #header_left > li:hover {
+  color: #0b80dc;
+}
+#header_left > li:hover > a {
   color: #0b80dc;
 }
 #header_left > li:hover::after {
@@ -124,22 +126,27 @@ header {
 
 #header_middle {
   padding-left: 0;
+  margin-top: 12px;
   margin-bottom: 0;
   background-color: #f9fafc;
 }
-#header_middle > a {
-  background-color: #f9fafc;
-}
-#header_middle > a > img {
-  width: 50px;
-  height: 50px;
+#header_middle > canvas {
+  outline: 2px solid #0b80dc;
   background-color: #f9fafc;
   transition: transform 0.5s ease-in;
 }
-#header_middle > a > img:hover {
-  transform: scale(1.3);
+#header_middle > canvas:hover {
+  animation: spin 3s infinite linear;
 }
 
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 #header_right {
   display: flex;
   flex-direction: row;
@@ -158,12 +165,11 @@ header {
   cursor: pointer;
   margin-right: 3vw;
   padding-top: 2%;
-  font-size: 1.2em;
+  font-size: 17px;
   text-transform: uppercase;
 }
 #header_right > li > i {
   position: absolute;
-  top: 14px;
 }
 #header_right > li > a {
   text-decoration: none;
@@ -185,6 +191,9 @@ header {
   margin-right: 0;
 }
 #header_right > li:hover {
+  color: #0b80dc;
+}
+#header_right > li:hover > a {
   color: #0b80dc;
 }
 #header_right > li:hover::after {
@@ -279,8 +288,7 @@ header {
 }
 
 footer {
-  display: flex;
-  flex-direction: row;
+  display: grid;
   margin-top: 10px;
   padding-top: 7px;
   justify-content: space-between;
@@ -289,29 +297,35 @@ footer {
 }
 
 #footer_left {
-  padding-left: 2vw;
+  grid-column: 1/4;
   display: flex;
   flex-direction: row;
+  padding-left: 20px;
 }
 #footer_left > li {
   list-style-type: none;
-  padding-right: 5px;
+  padding-right: 15px;
+  padding-top: 10px;
 }
-#footer_left > li > a > img {
-  width: 35px;
-  height: 35px;
+#footer_left > li > a > i {
+  color: #6c6e70;
+}
+#footer_left > li > a > i:hover {
+  color: #0b80dc;
 }
 
 #footer_middle {
+  grid-column: 6/8;
   padding-left: 0;
-  margin-bottom: 0;
-  font-size: 1.1em;
+  margin-top: 22px;
+  color: #6c6e70;
 }
 #footer_middle > li {
   list-style-type: none;
 }
 
 #footer_right {
+  grid-column: 10/13;
   margin-top: 3px;
   padding: 0 20px;
 }
@@ -491,7 +505,7 @@ input[type=submit] {
   color: black;
 }
 #btn_kakaotalk > .social_icons_right:hover {
-  background-color: #ffd712;
+  background-color: #f9e209;
 }
 
 #btn_facebook > .social_icons_left {
@@ -520,7 +534,7 @@ input[type=submit] {
   vertical-align: middle;
 }
 #btn_facebook > .social_icons_right:hover {
-  background-color: #1a469e;
+  background-color: #324b81;
 }
 
 #btn_github > .social_icons_left {
@@ -546,7 +560,7 @@ input[type=submit] {
   vertical-align: middle;
 }
 #btn_github > .social_icons_right:hover {
-  background-color: #0a0b0c;
+  background-color: #000000;
 }
 
 #btn_google > .social_icons_left {
@@ -572,7 +586,7 @@ input[type=submit] {
   vertical-align: middle;
 }
 #btn_google > .social_icons_right:hover {
-  background-color: #ff0505;
+  background-color: #cc2d20;
 }
 
 #btn_twitter > .social_icons_left {
@@ -598,7 +612,33 @@ input[type=submit] {
   vertical-align: middle;
 }
 #btn_twitter > .social_icons_right:hover {
-  background-color: #0088f2;
+  background-color: #0d80d9;
+}
+
+#btn_whatsapp > .social_icons_left {
+  border-radius: 5px 0 0 5px;
+  border-right: 1px solid #bcc0c6;
+  background-color: #25D366;
+}
+#btn_whatsapp > .social_icons_left i {
+  width: 40px;
+  padding-top: 4px;
+  padding-left: 5px;
+  color: white;
+}
+#btn_whatsapp > .social_icons_right {
+  border-radius: 0 5px 5px 0;
+  width: 27vw;
+  background-color: #25D366;
+}
+#btn_whatsapp > .social_icons_right p {
+  padding: 7px 0 7px 20px;
+  margin: 0;
+  color: white;
+  vertical-align: middle;
+}
+#btn_whatsapp > .social_icons_right:hover {
+  background-color: #22c35d;
 }
 
 .input_container > span {

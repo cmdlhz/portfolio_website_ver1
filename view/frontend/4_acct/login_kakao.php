@@ -13,7 +13,7 @@ $ch = curl_init(); // we init curl by passing the url
 curl_setopt($ch, CURLOPT_URL,"https://kauth.kakao.com/oauth/token");
 curl_setopt($ch, CURLOPT_POST, true); // to send a POST request
 curl_setopt($ch, CURLOPT_POSTFIELDS,
-"grant_type=authorization_code&client_id=948c4b7cb83e566ada606d8298a09ff0&redirect_uri=http://localhost:8888/Software_Dev/GitHub/portfolio_website/index.php?action=login_kakao&code=$authorize_code"); // indicate the data to send
+"grant_type=authorization_code&client_id=948c4b7cb83e566ada606d8298a09ff0&redirect_uri=http://localhost:8888/index.php?action=login_kakao&code=$authorize_code"); // indicate the data to send
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // to return the transfer as a string of the return value of curl_exec() instead of outputting it out directly.
 //print_r($ch);
 $server_output = curl_exec ($ch); // to perform the curl session

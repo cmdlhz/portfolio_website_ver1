@@ -120,16 +120,16 @@ input[type=submit]{
 #btn_kakaotalk{
     > .social_icons_left{
         @include social_icons_left_img;
-        background-color: #ffe812;
+        background-color: #ffe812; 
     }
     > .social_icons_right{
         @include social_icons_right;
-        background-color: #ffe812;
+        background-color: #ffe812; // 54%
         p{
             color: black;
         }
         &:hover{
-            background-color: #ffd712;
+            background-color: #f9e209; 
         }
     }
 }
@@ -145,9 +145,9 @@ input[type=submit]{
     }
     > .social_icons_right{
         @include social_icons_right;
-        background-color: #3b5998;
+        background-color: #3b5998; // 41%
         &:hover{
-            background-color: #1a469e;
+            background-color: #324b81; // 35%
         }
     }
 }
@@ -159,9 +159,9 @@ input[type=submit]{
     }
     > .social_icons_right{
         @include social_icons_right;
-        background-color: #24292e;
+        background-color: #24292e; // 16%
         &:hover{
-            background-color: #0a0b0c;
+            background-color: #000000;  // 0%
         }
     }
 }
@@ -173,9 +173,9 @@ input[type=submit]{
     }
     > .social_icons_right{
         @include social_icons_right;
-        background-color: #DB4437;
+        background-color: #DB4437; // 54%
         &:hover{
-            background-color: #ff0505;
+            background-color: #cc2d20;  
         }
     }
 }
@@ -187,9 +187,23 @@ input[type=submit]{
     }
     > .social_icons_right{
         @include social_icons_right;
-        background-color: #38A1F3;
+        background-color: #38A1F3; // 59%
         &:hover{
-            background-color: #0088f2;
+            background-color: #0d80d9; // 45%
+        }
+    }
+}
+
+#btn_whatsapp{
+    > .social_icons_left{
+        @include social_icons_left;
+        background-color: #25D366;
+    }
+    > .social_icons_right{
+        @include social_icons_right;
+        background-color: #25D366; // 49%
+        &:hover{
+            background-color: #22c35d; // 45%
         }
     }
 }
