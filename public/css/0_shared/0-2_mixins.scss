@@ -8,8 +8,6 @@
 }
 
 @mixin nav_link_click{
-	text-decoration: none;
-	
 	&:link{
 		color: black;
 	}
@@ -28,61 +26,55 @@
 // https://codepen.io/hlim18/pen/OdeOmE?editors=1100
 @mixin submenu_nav{
 	list-style-type: none;
-	background: red;
 	min-width: 5rem;
-	display: none;
-	z-index: 0;
-	position: absolute;
 	transition: all 0.5s ease;
 	margin-top: 19px;
 	left: 0;
 	padding-left: 0;
-	outline: 1px solid $darker_background_color;
 
-	// &:hover{
-	// 	display: block;
-	// }
-	// &:focus-within {
-	// 	display: block;
-	// }
-	>li{
+	>a{
 		float: none;
 		clear: both;
-		width: 120px;
-		padding-left: 30px;
-		padding-bottom: 5px;
+		width: 110px;
+		// padding: top right bottom left
+		padding: 5px 10px 5px 29px;
+		background: $header_and_footer_background;
+		border: 1px solid $darker_background_color;
+		text-decoration: none;
+		display: block;
 
-		&:first-of-type{
-			padding-top: 5px;
+		&:link{
+			color: black;
 		}
-
+		&:visited{
+			color: black;
+		}
 		&:hover{
-			background: $header_and_footer_background;
+			color: $header_and_footer_background;
+			background-color: $theme_color;
 		}
-		&:focus-within {
-			background: $header_and_footer_background;
+		&:focus-within{
+			color: $header_and_footer_background;
+			background-color: $theme_color;
+		}
+		&:active{
+			color: $header_and_footer_background;
+			background-color: $theme_color;
 		}
 
-		> a{
-			text-decoration: none;
-	
-			&:link{
-				color: black;
-			}
-			&:visited{
-				color: black;
-			}
+		> li{
 			&:hover{
-				color: $theme_color;
+				color: $header_and_footer_background;
+				background-color: $theme_color;
 			}
-			&:active{
-				color: $theme_color;
+			&:focus-within {
+				color: $header_and_footer_background;
+				background-color: $theme_color;
 			}
 		}
 	}
 }
 
-// https://30-seconds.github.io/30-seconds-of-css/#hover-underline-animation
 @mixin navigation {
     display: flex;
     flex-direction: row;
@@ -100,13 +92,25 @@
 		font-size: 17px;
 		text-transform: uppercase;
 
-		>i{
+		.header_link_icon{
+			@include nav_link_click;
+		}
+
+		.header_icon{
+			@include nav_link_click;
 			position: absolute;
 		}
 
-		>a{
+		.header_word_left{
+			@include nav_link_click;
+			margin-left: 28px;
+			text-decoration: none;
+		}
+
+		.header_word_right{
 			@include nav_link_click;
 			margin-left: 30px;
+			text-decoration: none;
 		}
 
 		&:last-of-type{
@@ -116,7 +120,19 @@
 		&:hover{
 			color: $theme_color;
 
-			> a{
+			.header_link_icon{
+				color: $theme_color;
+			}
+
+			.header_icon{
+				color: $theme_color;
+			}
+
+			.header_word_left{
+				color: $theme_color;
+			}
+
+			.header_word_right{
 				color: $theme_color;
 			}
 
@@ -150,8 +166,6 @@
 			background-color: $theme_color;
 			transform-origin: top right;
 			transition: transform 0.25s ease-out;
-			// ease-out: fast/abrupt at the beginning, slow at the end
-			// ease-out: when things are moving in.
 		}
 	}
 }

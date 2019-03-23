@@ -17,11 +17,11 @@ header{
     background-color: $header_and_footer_background;
     >li{
         background-color: $header_and_footer_background;
-        >i{
-            background-color: $header_and_footer_background;
-        }
         >a{
             background-color: $header_and_footer_background;
+            >i{
+                background-color: $header_and_footer_background;
+            }
         }
     }
 }
@@ -32,7 +32,7 @@ header{
     margin-bottom: 0;
     background-color: $header_and_footer_background;
 
-    >canvas{
+    canvas{
         outline: 2px solid $theme_color;
         background-color: $header_and_footer_background;
         transition: transform 0.5s ease-in;
@@ -58,16 +58,14 @@ header{
     display: flex;
     justify-content: flex-end;
 
-    // // for submenu, look at @submenu_nav mixin
-    // BUT background color of the submenu is covered below:
     background-color: $header_and_footer_background;
     >li{
         background-color: $header_and_footer_background;
-        >i{
-            background-color: $header_and_footer_background;
-        }
         >a{
             background-color: $header_and_footer_background;
+            >i{
+                background-color: $header_and_footer_background;
+            }
         }
         #header_dropdown_content{
 			@include submenu_nav;
@@ -75,11 +73,11 @@ header{
     }
 }
 
-.dropdown{
-    overflow: hidden;
+.doesnt_show{
+    display: none;
 }
 
 .show{
     display: block;
-    z-index: 10;
+    position: absolute;
 }

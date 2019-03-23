@@ -4,13 +4,27 @@ if(session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
+require("controller/frontend/0_header_and_footer.php");
 require("controller/frontend/1_work.php");
+require("controller/frontend/2_writings.php");
+require("controller/frontend/3_about.php");
 require("controller/frontend/4_acct.php");
+require("controller/frontend/5_main_page.php");
 
 try{
     if(isset($_REQUEST['action'])){
         if($_REQUEST['action'] == 'work'){
             work_list();
+        } elseif($_REQUEST['action'] == 'writings'){
+            writings();
+        } elseif($_REQUEST['action'] == 'main_page'){
+            main_page();
+        } elseif($_REQUEST['action'] == 'about'){
+            about();
+        } elseif($_REQUEST['action'] == 'about_personality'){
+            about_personality();
+        } elseif($_REQUEST['action'] == 'about_interests'){
+            about_interests();
         } elseif($_REQUEST['action'] == 'signup'){
             signup_page();
         } elseif($_REQUEST['action'] == 'after_signup' OR $_REQUEST['action'] == 'login'){
