@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="public/css/style.css">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <title><?= $title ?></title>
 </head>
 <body>
@@ -15,5 +16,6 @@
     <?=$content?>
     <?php require("view/frontend/0_header_and_footer/footer.php");?>
     <script src="public/js/frontend/0_header_and_footer/logo.js"></script>
+    <script src="public/js/frontend/0_header_and_footer/dropdown_menu.js"></script>
 </body>
 </html>

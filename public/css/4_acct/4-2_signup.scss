@@ -1,1 +1,14 @@
 @import './4-1_acct_form.scss';
+
+#signup_form{
+    input{
+        margin-bottom: 5px;
+    }
+}
+
+#or_divider_signup{
+    margin-top: 18px;
+    text-align: center;
+    border-top: 1px solid black;
+    height: 24px;
+}

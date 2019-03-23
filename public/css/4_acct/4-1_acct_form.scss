@@ -1,5 +1,25 @@
 @import '../0_shared/0-6_footer.scss';
 
+.access_switch{
+    margin-left: 5px;
+    margin-top: 0px;
+
+    >a{
+        &:link{
+            color: black;
+        }
+        &:visited{
+            color: black;
+        }
+        &:hover{
+            color: $theme_color;
+        }
+        &:active{
+            color: $theme_color;
+        }
+    }
+}
+
 form{
     display: flex;
     flex-direction: column;
@@ -63,14 +83,6 @@ input[type=submit]{
     display: inline-block;
     cursor: pointer;
     border-radius: 5px;
-}
-
-.or_divider{
-    // top right bottom left
-    // margin: 50px 10vw 0 10vw;
-    margin-top: 50px;
-    text-align: center;
-    border-top: 1px solid black;
 }
 
 .or_divider_text{

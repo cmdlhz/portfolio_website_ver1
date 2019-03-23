@@ -27,10 +27,11 @@ if($_REQUEST['action'] == 'logged'){
 <section class="acct_section">
     <article>
         <?php require("login_form.php"); ?>
-        <div class="or_divider">
+        <div id="or_divider_login">
             <span class="or_divider_text">OR</span>
         </div>
         <?php require("login_social_login_btns.php") ?>
+        <p class="access_switch">Don't have an acct? Please <a href="index.php?action=signup">sign up</a>.</p>
     </article>
 </section>
 <script src="public/js/frontend/4_acct/login_form.js"></script>
