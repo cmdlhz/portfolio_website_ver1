@@ -88,19 +88,37 @@ SUCCEED: "git push origin HEAD --force" ([StackOverlfow](https://stackoverflow.c
 ### Overall
 * <b>Testing</b>
     - [HTML-CSS-JS](https://html-css-js.com/): An online tool collection of HTML, CSS, JS
+    - GreenSock
+        + [GreenSock Ease Visualizer](https://greensock.com/ease-visualizer): Power 0-4, Back, Elastic, Bounce, Rough, SlowMo, Stepped, Circ, Expo, Sine
+    - [Regular Expressions](https://regex101.com/): a regular expression debugger 
+* <b>Tutorials</b>
+    - GreenSock
+        + [GreenSock for Beginners](https://bit.ly/2IBc8la) on YouTube by [Petr Tichy](https://twitter.com/ihatetomatoes)
+    - ScrollMagic
+        + [ScrollMagic for Beginners](https://bit.ly/2IBc8la) on YouTube by [Petr Tichy](https://twitter.com/ihatetomatoes)
 
 ### CSS
+* <b>Testing</b>
+    - [Cubic-bezier](http://cubic-bezier.com): A transition effect with variable speed from start to end
+    - [Color Picker](https://www.w3schools.com/colors/colors_picker.asp): Comparing similar colors
+* <b>Collections</b>
+    - [30 Seconds of CSS](https://30-seconds.github.io/30-seconds-of-css/): A curated collection of useful CSS snippets
 * <b>Tutorials</b>
     - [Flexbox Froggy](https://flexboxfroggy.com/): A game for learning CSS flexbox
     - [Grid Garden](http://cssgridgarden.com/): A game for learning CSS grid layout
     - [CSS Animation Tutorial Series](https://www.youtube.com/playlist?list=PL4cUxeGkcC9iGYgmEd2dm3zAKzyCGDtM5) by [Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)
-* <b>Collections</b>
-    - [30 Seconds of CSS](https://30-seconds.github.io/30-seconds-of-css/): A curated collection of useful CSS snippets
-* <b>Testing</b>
-    - [Cubic-bezier](http://cubic-bezier.com): A transition effect with variable speed from start to end
-    - [Color Picker](https://www.w3schools.com/colors/colors_picker.asp): Comparing similar colors
 
 ### JS
+
+### Vue
+* <b>Collections</b>
+    - [Awesome Vue](https://github.com/vuejs/awesome-vue) 
+
+### Etc..
+* <b>Collections</b>
+    - [Giphy](https://giphy.com/)
+    - [Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
+    - [Google Fonts : Korean](https://googlefonts.github.io/korean/)
 
 ## 8.2. Back-end
 
@@ -123,6 +141,8 @@ SUCCEED: "git push origin HEAD --force" ([StackOverlfow](https://stackoverflow.c
     - [Derek Mei](https://www.derekmei.com/)
 
 * <b>Interactive Experience</b>
+    - [Website Awards](https://www.awwwards.com/) : scores based on design, usability, creativity, content, and mobile
+        + 12 Dishes @ [website](http://12dishes.com/), [awwards](https://www.awwwards.com/sites/around-the-world-in-12-dishes), and [youtube explanation](https://youtu.be/Wu7OHhdqT0c)
     - [Form Follows Function](http://fff.cmiscm.com/#!/main)
 - - -
 
@@ -134,6 +154,8 @@ SUCCEED: "git push origin HEAD --force" ([StackOverlfow](https://stackoverflow.c
     - JavaScript
         + [GreenSock Animation Platform (GSAP)](https://greensock.com/gsap) : Professional-grade javascript animation for the modern web
         + [ScrollMagic](http://scrollmagic.io/) : Javascript library for magical scroll interactions
+        + [AnimeJS](https://animejs.com/):  a lightweight JavaScript animation library
+        + [HeadroomJS](https://wicky.nillia.ms/headroom.js/) : A JS widget that allows you to react to the user's scroll
         + [SweetAlert2](https://sweetalert2.github.io/) : A beautiful, responsive, customizable replacement for JavaScript's popup boxes
         + [PrismJS](https://prismjs.com/) : a lightweight, extensible syntax highlighter
 * <b>Back End</b>
@@ -146,11 +168,18 @@ SUCCEED: "git push origin HEAD --force" ([StackOverlfow](https://stackoverflow.c
 I plan to learn the following:
         
 * <b>Front-end</b>
-    - [TypeScript](https://www.typescriptlang.org/) : a typed superset of JavaScript that compiles to plain JavaScript
+    - JavaScript
+        + [30 Day Vanilla Coding Challenge](https://javascript30.com/) - [GitHub](https://github.com/wesbos/JavaScript30) 
+    - [TypeScript](https://www.typescriptlang.org/) : a typed superset of JavaScript that compiles to plain JavaScriptii
     - [Vue](https://vuejs.org/)
         + [Vuetify](https://vuetifyjs.com/en/) : a material component framework for Vue apps
         + [NuxtJS](https://nuxtjs.org/) : a framework for creating a server-rendered Vue.js apps
         + [VeeValidate](https://baianat.github.io/vee-validate/) : Template Based Validation Framework for Vue.js
+    - JavaScript Libraries
+        + [Draggable](https://shopify.github.io/draggable/): a modern drag & drop library
+    - CSS
+        + [Flexbox](https://flexbox.io/) by Wes Bos
+        + [CSS Grid](https://cssgrid.io/) by Wes Bos
 * <b>Back-end</b>
     - [Python](https://www.python.org/)
         + [Django](https://www.djangoproject.com/)
@@ -161,6 +190,7 @@ I plan to learn the following:
     - [PostgreSQL](https://www.postgresql.org/) :  a powerful, open source object-relational database system
 * <b>Etc</b>
     - [VIM](https://www.vim.org/) : a text editor (<i>Force you to use only the keyboard!</i>)
+- - -
 
 # 11. Contributing
 If you see any typos or formatting errors in the website, please do not hesitate to open a pull request and fix it!

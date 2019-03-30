@@ -17,7 +17,7 @@ ob_start(); ?>
 <section class="acct_section">
     <article>
         <?php require("login_form.php"); ?>
-        <div class="or_divider">
+        <div id="or_divider_login">
             <span class="or_divider_text">OR</span>
         </div>
         <?php require("login_social_login_btns.php") ?>

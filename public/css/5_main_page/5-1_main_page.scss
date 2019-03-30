@@ -2,3 +2,38 @@
 
 // // Convert scss file to css file : run "sass --watch 4-4_acct_page.scss:../style.css" in terminal
 // // Or, just do "sass 5-1_main_page.scss ../style.css" 
+
+#main_section{
+    grid-column: 3/9;
+    text-align: center;
+}
+
+#clouds{
+    width: 100%;
+    clip-path: ellipse(50% 50% at 50% 50%);
+}
+
+#main_list{
+    list-style-type: none;
+    padding-left:0;
+    li{
+        &:nth-child(even){
+            background: lightseagreen;
+            color: white;
+        }
+        &:nth-child(odd){
+            background: lightgray;
+            color: black;
+        }
+    }
+}
+
+.aside_buttons{
+    grid-column: 10/12;
+    margin-top: 175px;
+    button{
+        height: 30px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

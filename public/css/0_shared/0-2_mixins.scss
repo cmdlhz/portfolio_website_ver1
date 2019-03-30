@@ -94,6 +94,7 @@
 
 		.header_link_icon{
 			@include nav_link_click;
+			text-decoration: none;
 		}
 
 		.header_icon{
@@ -104,13 +105,11 @@
 		.header_word_left{
 			@include nav_link_click;
 			margin-left: 28px;
-			text-decoration: none;
 		}
 
-		.header_word_right{
+		.header_word{
 			@include nav_link_click;
-			margin-left: 30px;
-			text-decoration: none;
+			margin-left: 29px;
 		}
 
 		&:last-of-type{
@@ -128,11 +127,7 @@
 				color: $theme_color;
 			}
 
-			.header_word_left{
-				color: $theme_color;
-			}
-
-			.header_word_right{
+			.header_word{
 				color: $theme_color;
 			}
 
@@ -144,10 +139,6 @@
 
 		&:focus-within{
 			color: $theme_color;
-
-			// > ul{
-			// 	display: block;
-			// }
 
 			&::after{
 				transform: scaleX(1);

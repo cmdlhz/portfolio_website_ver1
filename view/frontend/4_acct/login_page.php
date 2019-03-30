@@ -35,5 +35,6 @@ if($_REQUEST['action'] == 'logged'){
     </article>
 </section>
 <script src="public/js/frontend/4_acct/login_form.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 <?php $content = ob_get_clean(); ?>
 <?php require('view/template.php') ?>

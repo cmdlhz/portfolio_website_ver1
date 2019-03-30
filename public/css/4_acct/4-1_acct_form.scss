@@ -139,6 +139,20 @@ input[type=submit]{
         background-color: #ffe812; // 54%
         p{
             color: black;
+            a{
+                &:link{
+                    color: black;
+                }
+                &:visited{
+                    color: black;
+                }
+                &:hover{
+                    color: black;
+                }
+                &:active{
+                    color: black;
+                }
+            }
         }
         &:hover{
             background-color: #f9e209; 

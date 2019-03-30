@@ -63,6 +63,9 @@ header {
   font-size: 17px;
   text-transform: uppercase;
 }
+#header_left > li .header_link_icon {
+  text-decoration: none;
+}
 #header_left > li .header_link_icon:link {
   color: black;
 }
@@ -92,7 +95,6 @@ header {
 }
 #header_left > li .header_word_left {
   margin-left: 28px;
-  text-decoration: none;
 }
 #header_left > li .header_word_left:link {
   color: black;
@@ -106,20 +108,19 @@ header {
 #header_left > li .header_word_left:active {
   color: #0b82dc;
 }
-#header_left > li .header_word_right {
-  margin-left: 30px;
-  text-decoration: none;
+#header_left > li .header_word {
+  margin-left: 29px;
 }
-#header_left > li .header_word_right:link {
+#header_left > li .header_word:link {
   color: black;
 }
-#header_left > li .header_word_right:visited {
+#header_left > li .header_word:visited {
   color: black;
 }
-#header_left > li .header_word_right:hover {
+#header_left > li .header_word:hover {
   color: #0b82dc;
 }
-#header_left > li .header_word_right:active {
+#header_left > li .header_word:active {
   color: #0b82dc;
 }
 #header_left > li:last-of-type {
@@ -134,10 +135,7 @@ header {
 #header_left > li:hover .header_icon {
   color: #0b82dc;
 }
-#header_left > li:hover .header_word_left {
-  color: #0b82dc;
-}
-#header_left > li:hover .header_word_right {
+#header_left > li:hover .header_word {
   color: #0b82dc;
 }
 #header_left > li:hover::after {
@@ -217,6 +215,9 @@ header {
   font-size: 17px;
   text-transform: uppercase;
 }
+#header_right > li .header_link_icon {
+  text-decoration: none;
+}
 #header_right > li .header_link_icon:link {
   color: black;
 }
@@ -246,7 +247,6 @@ header {
 }
 #header_right > li .header_word_left {
   margin-left: 28px;
-  text-decoration: none;
 }
 #header_right > li .header_word_left:link {
   color: black;
@@ -260,20 +260,19 @@ header {
 #header_right > li .header_word_left:active {
   color: #0b82dc;
 }
-#header_right > li .header_word_right {
-  margin-left: 30px;
-  text-decoration: none;
+#header_right > li .header_word {
+  margin-left: 29px;
 }
-#header_right > li .header_word_right:link {
+#header_right > li .header_word:link {
   color: black;
 }
-#header_right > li .header_word_right:visited {
+#header_right > li .header_word:visited {
   color: black;
 }
-#header_right > li .header_word_right:hover {
+#header_right > li .header_word:hover {
   color: #0b82dc;
 }
-#header_right > li .header_word_right:active {
+#header_right > li .header_word:active {
   color: #0b82dc;
 }
 #header_right > li:last-of-type {
@@ -288,10 +287,7 @@ header {
 #header_right > li:hover .header_icon {
   color: #0b82dc;
 }
-#header_right > li:hover .header_word_left {
-  color: #0b82dc;
-}
-#header_right > li:hover .header_word_right {
+#header_right > li:hover .header_word {
   color: #0b82dc;
 }
 #header_right > li:hover::after {
@@ -320,10 +316,23 @@ header {
 #header_right > li {
   background-color: #f9fafc;
 }
-#header_right > li > a {
+#header_right > li a {
+  text-decoration: none;
   background-color: #f9fafc;
 }
-#header_right > li > a > i {
+#header_right > li a:link {
+  color: black;
+}
+#header_right > li a:visited {
+  color: black;
+}
+#header_right > li a:hover {
+  color: #0b82dc;
+}
+#header_right > li a:active {
+  color: #0b82dc;
+}
+#header_right > li a i {
   background-color: #f9fafc;
 }
 #header_right > li #header_dropdown_content {
@@ -414,7 +423,7 @@ footer {
   background-color: #e0e2e5;
   text-indent: 40px;
   margin-top: 0px;
-  width: 130px;
+  width: 150px;
   background-color: #e0e2e5;
   box-sizing: border-box;
 }
@@ -461,6 +470,9 @@ footer {
 }
 #footer_right > li > a > i:hover {
   color: #0b82dc;
+}
+#footer_right > li:last-child {
+  padding-right: 0px;
 }
 
 .access_switch {
@@ -620,6 +632,18 @@ input[type=submit] {
   vertical-align: middle;
 }
 #btn_kakaotalk > .social_icons_right p {
+  color: black;
+}
+#btn_kakaotalk > .social_icons_right p a:link {
+  color: black;
+}
+#btn_kakaotalk > .social_icons_right p a:visited {
+  color: black;
+}
+#btn_kakaotalk > .social_icons_right p a:hover {
+  color: black;
+}
+#btn_kakaotalk > .social_icons_right p a:active {
   color: black;
 }
 #btn_kakaotalk > .social_icons_right:hover {
@@ -792,6 +816,22 @@ input[type=submit] {
   height: 37px;
 }
 
+.access_switch a {
+  text-decoration: none;
+}
+.access_switch a:link {
+  color: #0b82dc;
+}
+.access_switch a:visited {
+  color: #0b82dc;
+}
+.access_switch a:hover {
+  color: #0b82dc;
+}
+.access_switch a:active {
+  color: #0b82dc;
+}
+
 #acct_btn {
   color: orangered;
   border: 1px solid orangered;
@@ -818,6 +858,39 @@ input[type=submit] {
 }
 #acct_btn a:active {
   color: orangered;
+}
+
+#main_section {
+  grid-column: 3/9;
+  text-align: center;
+}
+
+#clouds {
+  width: 100%;
+  clip-path: ellipse(50% 50% at 50% 50%);
+}
+
+#main_list {
+  list-style-type: none;
+  padding-left: 0;
+}
+#main_list li:nth-child(even) {
+  background: lightseagreen;
+  color: white;
+}
+#main_list li:nth-child(odd) {
+  background: lightgray;
+  color: black;
+}
+
+.aside_buttons {
+  grid-column: 10/12;
+  margin-top: 175px;
+}
+.aside_buttons button {
+  height: 30px;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
