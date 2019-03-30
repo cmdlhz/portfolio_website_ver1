@@ -50,7 +50,7 @@ try{
             logout_page();
         }
     } else {
-        signup_page();
+        main_page();
     }
 }
 catch(Exception $e){

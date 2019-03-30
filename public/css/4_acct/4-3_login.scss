@@ -26,3 +26,22 @@
     border-top: 1px solid black;
     height: 37px;
 }
+
+.access_switch{
+    a{
+        text-decoration: none;
+
+        &:link{
+            color: $theme_color;
+        }
+        &:visited{
+            color: $theme_color;
+        }
+        &:hover{
+            color: $theme_color;
+        }
+        &:active{
+            color: $theme_color;
+        }
+    }
+}

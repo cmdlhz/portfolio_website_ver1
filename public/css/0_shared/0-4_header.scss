@@ -61,14 +61,16 @@ header{
     background-color: $header_and_footer_background;
     >li{
         background-color: $header_and_footer_background;
-        >a{
+        a{
+            @include nav_link_click;
+            text-decoration: none;
             background-color: $header_and_footer_background;
-            >i{
+            i{
                 background-color: $header_and_footer_background;
             }
         }
         #header_dropdown_content{
-			@include submenu_nav;
+            @include submenu_nav;
 		}
     }
 }

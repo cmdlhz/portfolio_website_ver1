@@ -1,16 +1,16 @@
 <header>
     <ul id="header_left">
         <li>
-            <a class="header_link_icon" href="index.php?action=work"><i class="header_icon material-icons">work</i></a>
-            <a class="header_word_left" href="index.php?action=work">Work</a>
-            <!-- <a class="header_link_icon" href="index.php?action=work">
+            <a class="header_link_icon" href="index.php?action=work">
                 <i class="header_icon material-icons">work</i>
-                <span>Work</span>
-            </a> -->
+                <span class="header_word">Work</span>
+            </a>
         </li>
         <li>
-            <a class="header_link_icon" href="index.php?action=writings"><i class="header_icon material-icons">create</i></a>
-            <a class="header_word_left" href="index.php?action=writings">Writings</a>
+            <a class="header_link_icon" href="index.php?action=writings">
+                <i class="header_icon material-icons">create</i>
+                <span class="header_word">Writings</span>
+            </a>
         </li>
     </ul>
     <ul id="header_middle">
@@ -22,14 +22,20 @@
     </ul>
     <ul id="header_right">
         <li>
-            <a class="header_link_icon" href="index.php?action=about"><i class="header_icon material-icons">cloud</i></a>
-            <a class="header_word_right" href="index.php?action=about">About</a>
+            <a class="header_link_icon" href="index.php?action=about">
+                <i class="header_icon material-icons">cloud</i>
+                <span class="header_word">About</span>
+            </a>
         </li>
         <li class="dropdown">
-            <div id="dropdown_title">
+            <a href="#" id="dropdown_title" role="button">
                 <i class="header_icon material-icons">account_circle</i>
-                <a class="header_word_right" id="show_submenu_word" aria-haspopup="true" aria-expanded="false">Account</a>
-            </div>
+                <span id="show_submenu_word" aria-haspopup="true" aria-expanded="false" class="header_word">Account</span>
+            </a>
+            <!-- <a href="#" id="dropdown_title" aria-haspopup="true" aria-expanded="false" role="button">
+                <i class="header_icon material-icons">account_circle</i>
+                <span class="header_word">Account</span>
+            </a> -->
             <ul id="header_dropdown_content" aria-label="submenu" class="doesnt_show">
                 <a href="index.php?action=signup"><li>Sign Up</li></a>
                 <a href="index.php?action=login"><li>Log In</li></a>
