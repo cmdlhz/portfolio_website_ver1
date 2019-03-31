@@ -14,9 +14,6 @@ var main_hi = document.getElementById('main_h1'),
     aside_buttons = document.querySelectorAll('.subtitle_buttons'),
     tl = new TimelineMax();
 
-console.log(last_li);
-console.log(aside_buttons);
-
 tl
     .add('aside_buttons')
     .staggerFrom(aside_buttons, 0.2, {cycle: {

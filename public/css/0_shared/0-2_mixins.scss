@@ -222,3 +222,22 @@
 		vertical-align: middle;
 	}
 }
+
+@mixin scrollMagic_div{
+	.box_test{
+		position: relative;
+    	overflow: hidden;
+    	height: 90vh;
+
+        grid-row: 1/span 3;
+		width: 100%;
+	}
+	.project_info{
+		position: absolute;
+		height: 200px;
+		width: 400px;
+		top: 20%; 
+		background: lightgoldenrodyellow;
+		padding: 20px;
+	}
+}

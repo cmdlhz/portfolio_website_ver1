@@ -1,0 +1,93 @@
+@import '../3_about/3-2_interests.scss';
+
+.h1_test{
+    font-weight: 600;
+    font-size: 48px;
+    color: red;
+    margin: 0;
+    line-height: 1.3;
+    letter-spacing: .0001em;
+}
+
+.h4_test{
+    font-weight: 600;
+    font-size: 28px;
+    color: #666;
+    margin: 0;
+    line-height: 1.3;
+    letter-spacing: .0001em;
+}
+
+p.top_titles{
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+.small_title{
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+.project_link{
+    text-decoration: none;
+    border-bottom: 2px solid #b00f24;
+    padding: 5px 0;
+    font-size: 1.5rem;
+}
+
+.section_test{
+    height: 90vh;
+    width: 100vw;
+}
+
+.grid_test{
+    display: grid;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.project_div{
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.project_left{
+    @include scrollMagic_div;
+    .box_test{
+        grid-column: 2/span 7;
+    }
+    .project_info{
+		left: 5%;
+	}
+}
+
+.project_right{
+    @include scrollMagic_div;
+    .box_test{
+        grid-column: 5/span 7;
+    }
+    .project_info{
+		right: 5%;
+	}
+}
+
+.img_test{
+    width: 100%;
+}
+
+.overlay_test{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background:white;
+    width: 100%;
+    height: 100%;
+}
