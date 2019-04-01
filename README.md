@@ -51,11 +51,27 @@ The first version of my portfolio website
 ### 4.3.6. WhatsApp
 
 ## 4.4. Account Page
+### 4.4.1. Regex Patterns
+- username: `/^[a-z\d]{3,12}$/i`
+    + `\d` : matches any digit character (*same as `[0–9]`*)
+    + `/i` : case insensitive
+- password: `/^[\w@-]{8,20}$/`
+    + `\w` : matches any word character (a-z, A-Z, 0–9, and _)
+    + `@-` : matches a single character in the list (*case sensitive*)
+- email: `/^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/`
+    + `\.` : matches the character `.` literally (*case sensitive*)
+    + `-` : matches the character `-` literally (*case sensitive*)
+
 - - -
 
 # 5. Navigation 
 ## 5.1. Header
-Accessible Rich Internet Applications (ARIA) is a set of attributes that define ways to make web content and web applications (especially those developed with JavaScript) more accessible to people with disabilities.
+### 5.1.1. ARIA 
+[Accessible Rich Internet Applications (ARIA)](https://www.w3.org/TR/wai-aria-1.1/) is a set of attributes that define ways to make web content and web applications (especially those developed with JavaScript) more accessible to people with disabilities.
+- Adding `aria-haspopup="true"` to the parent of the dropdown menu to indicates an alternative state.
+- `aria-expanded="false"` & `aria-expanded="true"` shows that whether the alternative state is expanded or not.
+- Including `aria-label="submenu"` on the actual dropdown menu itself shows that it's a submenu.
+
 
 ## 5.2. Footer
 - - -
@@ -76,11 +92,11 @@ Please check out [this markdown](https://github.com/hlim18/SaferTrip_JL#61-githu
 
 ### 7.2.2. How to change git commit message after push
 <b>[ STEP 1 ]</b>
-git commit --amend -m "NEW COMMIT MESSAGE" ([StackOverflow](https://stackoverflow.com/a/41518764/10021131))
+`git commit --amend -m` "NEW COMMIT MESSAGE" ([StackOverflow](https://stackoverflow.com/a/41518764/10021131))
 
 <b>[ STEP 2 ]</b>
-FAILED: "git push --force" & "git push origin master"
-SUCCEED: "git push origin HEAD --force" ([StackOverlfow](https://stackoverflow.com/a/1338744/10021131))
+FAILED: "`git push --force`" & "`git push origin master`"
+SUCCEED: "`git push origin HEAD --force`" ([StackOverlfow](https://stackoverflow.com/a/1338744/10021131))
 - - -
 
 # 8. References 
@@ -90,8 +106,8 @@ SUCCEED: "git push origin HEAD --force" ([StackOverlfow](https://stackoverflow.c
 * <b>Testing</b>
     - [HTML-CSS-JS](https://html-css-js.com/): An online tool collection of HTML, CSS, JS
     - GreenSock
-        + [GreenSock Ease Visualizer](https://greensock.com/ease-visualizer): Power 0-4, Back, Elastic, Bounce, Rough, SlowMo, Stepped, Circ, Expo, Sine
-    - [Regular Expressions](https://regex101.com/): a regular expression debugger 
+        + [GreenSock Ease Visualizer](https://greensock.com/ease-visualizer): `Power 0-4`, `Back`, `Elastic`, `Bounce`, `Rough`, `SlowMo`, `Stepped`, `Circ`, `Expo`, `Sine`
+    - [Regex 101](https://regex101.com/): a regular expression debugger 
 * <b>Tutorials</b>
     - GreenSock
         + [GreenSock for Beginners](https://bit.ly/2IBc8la) on YouTube by [Petr Tichy](https://twitter.com/ihatetomatoes)
@@ -108,6 +124,8 @@ SUCCEED: "git push origin HEAD --force" ([StackOverlfow](https://stackoverflow.c
     - [Flexbox Froggy](https://flexboxfroggy.com/): A game for learning CSS flexbox
     - [Grid Garden](http://cssgridgarden.com/): A game for learning CSS grid layout
     - [CSS Animation Tutorial Series](https://www.youtube.com/playlist?list=PL4cUxeGkcC9iGYgmEd2dm3zAKzyCGDtM5) by [Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)
+* <b>Blogs</b>
+    - [Solved with CSS! Dropdown Menus](https://css-tricks.com/solved-with-css-dropdown-menus/)
 
 ### JS
 

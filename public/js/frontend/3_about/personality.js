@@ -26,6 +26,15 @@ project_left.forEach((element) =>{
     })
     .addIndicators()
     .setTween(animate_in).addTo(controller);
+
+    // var scene2 = new ScrollMagic.Scene({
+    //     triggerElement: footer,
+    //     duration: 1000,
+    //     triggerHook: 3
+    //   })
+    //   .setPin(footer)
+    //   .addTo(controller);
+
 });
 
 var project_right = document.querySelectorAll('.project_right');
@@ -40,13 +49,13 @@ project_right.forEach((element) =>{
     var animate_in = new TimelineMax();
 
     animate_in
-        .fromTo(pic_overlay, 2, 
-        {skewX: 10, scale: 1.5}, 
-        {skewX: 0, xPercent: 100, transformOrigin: "0% 100%", ease: Power2.easeOut})
-        .from(project_info, 1, {scaleY: 0, transformOrigin: 'bottom left'}, '-=1.5')
-        .from(small_title, 0.3, {autoAlpha: 0, y: 30, ease:Power4.easeOut}, '-=0.8')
-        .from(project_link, 0.2, {autoAlpha: 0, y: 30, ease:Power4.easeOut}, '-=0.8')
-        .from(h4_test, 0.2, {autoAlpha: 0, y: 30, ease:Power4.easeOut}, '-=0.8');
+        .fromTo(pic_overlay, 2.5, 
+            {skewX: 10, scale: 1.5 , right:0 }, 
+            {skewX: 0, right:"200%" ,transformOrigin: "0% 100%", ease: Power2.easeOut})
+        .from(project_info, 0.8, {scaleY: 0, transformOrigin: 'top right'}, '-=1.5')
+        .from(small_title, 0.4, {autoAlpha: 0, y: -30, ease:Power3.easeOut}, '-=0.8')
+        .from(project_link, 0.3, {autoAlpha: 0, y: -30, ease:Power3.easeOut}, '-=0.8')
+        .from(h4_test, 0.3, {autoAlpha: 0, y: -30, ease:Power3.easeOut}, '-=0.8');
 
     // Make a ScrollMagic scene
     var scene = new ScrollMagic.Scene({
@@ -54,4 +63,12 @@ project_right.forEach((element) =>{
     })
     .addIndicators()
     .setTween(animate_in).addTo(controller);
+
+    // var scene2 = new ScrollMagic.Scene({
+    //     triggerElement: footer,
+    //     duration: 1000,
+    //     triggerHook: 3
+    // })
+    // .setPin(footer)
+    // .addTo(controller);
 });

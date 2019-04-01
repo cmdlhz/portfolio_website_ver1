@@ -82,10 +82,20 @@ p.top_titles{
     width: 100%;
 }
 
-.overlay_test{
+.overlay_test_left{
     display: block;
     position: absolute;
     left: 0;
+    top: 0;
+    background:white;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay_test_right{
+    display: block;
+    position: absolute;
+    right: 0;
     top: 0;
     background:white;
     width: 100%;
