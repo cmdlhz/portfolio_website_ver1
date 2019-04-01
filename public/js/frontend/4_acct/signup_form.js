@@ -4,14 +4,8 @@ const signup_submit_btn = document.getElementById("signup_submit_btn");
 const login_submit_btn = document.getElementById("login_submit_btn");
 
 const regex_patterns = {
-    // \d : matches any digit character (same as [0–9])
-    // /i : case insensitive
     username: /^[a-z\d]{3,12}$/i,
-    // \w : matches any word character (a-z, A-Z, 0–9, and _)
-    // @- matches a single character in the list @- (case sensitive)
     password: /^[\w@-]{8,20}$/,
-    // \. matches the character . literally (case sensitive)
-    // - matches the character - literally (case sensitive)
     email: /^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/
 };
 

@@ -32,10 +32,6 @@
                 <i class="header_icon material-icons">account_circle</i>
                 <span id="show_submenu_word" aria-haspopup="true" aria-expanded="false" class="header_word">Account</span>
             </a>
-            <!-- <a href="#" id="dropdown_title" aria-haspopup="true" aria-expanded="false" role="button">
-                <i class="header_icon material-icons">account_circle</i>
-                <span class="header_word">Account</span>
-            </a> -->
             <ul id="header_dropdown_content" aria-label="submenu" class="doesnt_show">
                 <a href="index.php?action=signup"><li>Sign Up</li></a>
                 <a href="index.php?action=login"><li>Log In</li></a>

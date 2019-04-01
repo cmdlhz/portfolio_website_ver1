@@ -17,5 +17,6 @@
     <?php require("view/frontend/0_header_and_footer/footer.php");?>
     <script src="public/js/frontend/0_header_and_footer/logo.js"></script>
     <script src="public/js/frontend/0_header_and_footer/dropdown_menu.js"></script>
+    <script src="public/js/template.js"></script>
 </body>
 </html>

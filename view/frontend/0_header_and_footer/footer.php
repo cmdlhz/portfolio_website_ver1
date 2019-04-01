@@ -1,4 +1,4 @@
-<footer>
+<footer id="footer">
     <ul id="footer_left">
         <form action="" action="view/frontend/4_acct/footer_searchbar.php" method="POST">
             <div id="search_div" class="input_container">
