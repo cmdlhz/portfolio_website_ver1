@@ -62,6 +62,9 @@ The first version of my portfolio website
     + `\.` : matches the character `.` literally (*case sensitive*)
     + `-` : matches the character `-` literally (*case sensitive*)
 
+### 4.4.2. Screenshots
+[![3.png](https://i.postimg.cc/svJ7r68k/3.png)](https://postimg.cc/svJ7r68k)
+[url=https://postimg.cc/svJ7r68k][img]https://i.postimg.cc/svJ7r68k/3.png[/img][/url]
 - - -
 
 # 5. Navigation 
