@@ -63,8 +63,10 @@ The first version of my portfolio website
     + `-` : matches the character `-` literally (*case sensitive*)
 
 ### 4.4.2. Screenshots
-[![3.png](https://i.postimg.cc/svJ7r68k/3.png)](https://postimg.cc/svJ7r68k)
-[url=https://postimg.cc/svJ7r68k][img]https://i.postimg.cc/svJ7r68k/3.png[/img][/url]
+[![website-3.png](https://i.postimg.cc/6pSy7NVM/website-3.png)](https://postimg.cc/0zY83FBS)
+[![website-2.png](https://i.postimg.cc/jdMWbfD0/website-2.png)](https://postimg.cc/KRgc7R7J)
+[![website-1.png](https://i.postimg.cc/pXW94CXJ/website-1.png)](https://postimg.cc/YjPqm1Fv)
+
 - - -
 
 # 5. Navigation 
@@ -147,10 +149,15 @@ SUCCEED: "`git push origin HEAD --force`" ([StackOverlfow](https://stackoverflow
 ## 8.3. DB
 
 ## 8.4. Etc
+* <b>Online Code Editor</b>
+    - [StackBlitz](https://stackblitz.com/)
+    - [Code SandBox](https://codesandbox.io/)
 * <b>Authentication</b>
     - [OAuth 2.0](https://www.oauth.com/) : All about OAuth 2.0 Servers
     - Session vs Token Based Authentication @ [Medium](https://medium.com/@sherryhsu/session-vs-token-based-authentication-11a6c5ac45e4)
     - JWT authentication: When and how to use it @ [LogRocket](https://logrocket.com/blog/jwt-authentication-best-practices/)
+* <b>Etc</b>
+    - [Post Image](https://postimages.org/) : Get permanent links for images
 
 ## 8.5. Inspirations
 * <b>Programming Work</b>
