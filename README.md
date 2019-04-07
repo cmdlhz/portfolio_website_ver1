@@ -2,25 +2,25 @@
 The first version of my portfolio website
 
 ## Table of Contents
-1. <b>[Work](https://github.com/hlim18/portfolio_website_ver1#1-work)</b>
-2. <b>[Writings](https://github.com/hlim18/portfolio_website_ver1#2-writings)</b>
-3. <b>[About](https://github.com/hlim18/portfolio_website_ver1#3-about)</b>
-4. <b>[Account](https://github.com/hlim18/portfolio_website_ver1#4-account)</b>
-5. <b>[Navigation](https://github.com/hlim18/portfolio_website_ver1#5-navigation)</b>
-6. <b>[General](https://github.com/hlim18/portfolio_website_ver1#6-general)</b>
-7. <b>[Useful Info](https://github.com/hlim18/portfolio_website_ver1#7-useful-info)</b>
-    - 7.1. [GitHub README Markdown : Useful Techniques](https://github.com/hlim18/portfolio_website_ver1#71-github-markdown--useful-techniques)
-    - 7.2. [How to Use GitHub](https://github.com/hlim18/portfolio_website_ver1#72-how-to-use-github)
-8. <b>[References](https://github.com/hlim18/portfolio_website_ver1#8-references)</b>
-    - 8.1. [Front-end](https://github.com/hlim18/portfolio_website_ver1#81-front-end)
-    - 8.2. [Back-end](https://github.com/hlim18/portfolio_website_ver1#82-back-end)
-    - 8.3. [DB](https://github.com/hlim18/portfolio_website_ver1#83-db)
-    - 8.4. [Etc](https://github.com/hlim18/portfolio_website_ver1#84-etc)
-    - 8.5. [Inspirations](https://github.com/hlim18/portfolio_website_ver1#85-inspirations)
-9. <b>[Built With](https://github.com/hlim18/portfolio_website_ver1#9-built-with)</b>
-10. <b>[Coming Up](https://github.com/hlim18/portfolio_website_ver1#10-coming-up)</b>
-11. <b>[Contributing](https://github.com/hlim18/portfolio_website_ver1#11-contributing)</b>
-12. <b>[License](https://github.com/hlim18/portfolio_website_ver1#12-license)</b>
+1. <b>[Work](https://github.com/cmdlhz/portfolio_website_ver1#1-work)</b>
+2. <b>[Writings](https://github.com/cmdlhz/portfolio_website_ver1#2-writings)</b>
+3. <b>[About](https://github.com/cmdlhz/portfolio_website_ver1#3-about)</b>
+4. <b>[Account](https://github.com/cmdlhz/portfolio_website_ver1#4-account)</b>
+5. <b>[Navigation](https://github.com/cmdlhz/portfolio_website_ver1#5-navigation)</b>
+6. <b>[General](https://github.com/cmdlhz/portfolio_website_ver1#6-general)</b>
+7. <b>[Useful Info](https://github.com/cmdlhz/portfolio_website_ver1#7-useful-info)</b>
+    - 7.1. [GitHub README Markdown : Useful Techniques](https://github.com/cmdlhz/portfolio_website_ver1#71-github-markdown--useful-techniques)
+    - 7.2. [How to Use GitHub](https://github.com/cmdlhz/portfolio_website_ver1#72-how-to-use-github)
+8. <b>[References](https://github.com/cmdlhz/portfolio_website_ver1#8-references)</b>
+    - 8.1. [Front-end](https://github.com/cmdlhz/portfolio_website_ver1#81-front-end)
+    - 8.2. [Back-end](https://github.com/cmdlhz/portfolio_website_ver1#82-back-end)
+    - 8.3. [DB](https://github.com/cmdlhz/portfolio_website_ver1#83-db)
+    - 8.4. [Etc](https://github.com/cmdlhz/portfolio_website_ver1#84-etc)
+    - 8.5. [Inspirations](https://github.com/cmdlhz/portfolio_website_ver1#85-inspirations)
+9. <b>[Built With](https://github.com/cmdlhz/portfolio_website_ver1#9-built-with)</b>
+10. <b>[Coming Up](https://github.com/cmdlhz/portfolio_website_ver1#10-coming-up)</b>
+11. <b>[Contributing](https://github.com/cmdlhz/portfolio_website_ver1#11-contributing)</b>
+12. <b>[License](https://github.com/cmdlhz/portfolio_website_ver1#12-license)</b>
 - - -
 
 # 1. Work 
@@ -86,7 +86,7 @@ The first version of my portfolio website
 
 # 7. Useful Info
 ## 7.1. GitHub README Markdown : Useful Techniques 
-Please check out [this markdown](https://github.com/hlim18/SaferTrip_JL#61-github-markdown--useful-techniques).
+Please check out [this markdown](https://github.com/cmdlhz/SaferTrip_JL#61-github-markdown--useful-techniques).
 
 ## 7.2. How to Use GitHub
 ### 7.2.1. Why use GitHub Desktop?
@@ -107,7 +107,6 @@ SUCCEED: "`git push origin HEAD --force`" ([StackOverlfow](https://stackoverflow
 # 8. References 
 ## 8.1. Front-end
 ### Overall
-* <b>[Web Developer Roadmap](https://github.com/cmdlhz/developer-roadmap)</b>
 * <b>Testing</b>
     - [HTML-CSS-JS](https://html-css-js.com/): An online tool collection of HTML, CSS, JS
     - GreenSock
@@ -133,24 +132,13 @@ SUCCEED: "`git push origin HEAD --force`" ([StackOverlfow](https://stackoverflow
     - [Solved with CSS! Dropdown Menus](https://css-tricks.com/solved-with-css-dropdown-menus/)
 
 ### JS
-* <b>Tutorials</b>
-    - [The Modern JavaScript Tutorial](https://javascript.info/)
-* <b>Blog Posts</b>
-    - [JavaScript ES2015 Classes and Prototype Inheritance](https://www.accelebrate.com/blog/javascript-es6-classes-and-prototype-inheritance-part-1-of-2/)
 
-### Vue
-* <b>Collections</b>
-    - [Awesome Vue](https://github.com/vuejs/awesome-vue) 
-* <b>Blog Posts</b>
-    - [React vs. Vue (vs. Angular)](https://medium.com/fundbox-engineering/react-vs-vue-vs-angular-163f1ae7be56) : Comparisons in "*Learning Curve*", "*Code Style*", "*Single File Components*", "*Performance*", "*Flexibility*", "*Tooling*", "*Mobile*", "*Community*", "*Maturity*", "*Support*", and "*Hiring Talent*"
 
 ### Etc..
 * <b>Collections</b>
     - [Giphy](https://giphy.com/)
     - [Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
     - [Google Fonts : Korean](https://googlefonts.github.io/korean/)
-* <b>Blog Posts</b>
-    - [How I landed a full stack developer job without a tech degree or work experience](http://bit.ly/2D06sl5) by [Charlie Jeppsson](https://github.com/charliejeppsson)
 
 ## 8.2. Back-end
 
@@ -193,10 +181,6 @@ SUCCEED: "`git push origin HEAD --force`" ([StackOverlfow](https://stackoverflow
     - JavaScript
         + [GreenSock Animation Platform (GSAP)](https://greensock.com/gsap) : Professional-grade javascript animation for the modern web
         + [ScrollMagic](http://scrollmagic.io/) : Javascript library for magical scroll interactions
-        + [AnimeJS](https://animejs.com/):  a lightweight JavaScript animation library
-        + [HeadroomJS](https://wicky.nillia.ms/headroom.js/) : A JS widget that allows you to react to the user's scroll
-        + [SweetAlert2](https://sweetalert2.github.io/) : A beautiful, responsive, customizable replacement for JavaScript's popup boxes
-        + [PrismJS](https://prismjs.com/) : a lightweight, extensible syntax highlighter
 * <b>Back End</b>
     - [PHP](http://php.net/)
 * <b>DB</b>
