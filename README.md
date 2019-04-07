@@ -173,7 +173,7 @@ SUCCEED: "`git push origin HEAD --force`" ([StackOverlfow](https://stackoverflow
     - [Form Follows Function](http://fff.cmiscm.com/#!/main)
 - - -
 
-# 9. Bulit With
+# 9. Built With
 * <b>Front End</b>
     - HTML
     - CSS
