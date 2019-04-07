@@ -214,16 +214,12 @@ I plan to learn the following:
         + [Vuetify](https://vuetifyjs.com/en/) : a material component framework for Vue apps
         + [NuxtJS](https://nuxtjs.org/) : a framework for creating a server-rendered Vue.js apps
         + [VeeValidate](https://baianat.github.io/vee-validate/) : Template Based Validation Framework for Vue.js
-    - JavaScript Libraries
-        + [Draggable](https://shopify.github.io/draggable/): a modern drag & drop library
     - CSS
         + [Flexbox](https://flexbox.io/) by Wes Bos
         + [CSS Grid](https://cssgrid.io/) by Wes Bos
 * <b>Back-end</b>
     - [Python](https://www.python.org/)
         + [Django](https://www.djangoproject.com/)
-    - [GoLang](https://golang.org/) 
-        + [GopherJS](https://github.com/gopherjs/gopherjs) : a compiler from Go to JavaScript for running Go code in a browser
 * <b>DB</b>
     - [MongoDB](https://www.mongodb.com/) : a cross-platform document-oriented database program (<i>No SQL!</i>)
     - [PostgreSQL](https://www.postgresql.org/) :  a powerful, open source object-relational database system
