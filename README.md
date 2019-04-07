@@ -133,20 +133,30 @@ SUCCEED: "`git push origin HEAD --force`" ([StackOverlfow](https://stackoverflow
     - [Solved with CSS! Dropdown Menus](https://css-tricks.com/solved-with-css-dropdown-menus/)
 
 ### JS
+* <b>Tutorials</b>
+    - [The Modern JavaScript Tutorial](https://javascript.info/)
+* <b>Blog Posts</b>
+    - [JavaScript ES2015 Classes and Prototype Inheritance](https://www.accelebrate.com/blog/javascript-es6-classes-and-prototype-inheritance-part-1-of-2/)
 
 ### Vue
 * <b>Collections</b>
     - [Awesome Vue](https://github.com/vuejs/awesome-vue) 
+* <b>Blog Posts</b>
+    - [React vs. Vue (vs. Angular)](https://medium.com/fundbox-engineering/react-vs-vue-vs-angular-163f1ae7be56) : Comparisons in "*Learning Curve*", "*Code Style*", "*Single File Components*", "*Performance*", "*Flexibility*", "*Tooling*", "*Mobile*", "*Community*", "*Maturity*", "*Support*", and "*Hiring Talent*"
 
 ### Etc..
 * <b>Collections</b>
     - [Giphy](https://giphy.com/)
     - [Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
     - [Google Fonts : Korean](https://googlefonts.github.io/korean/)
+* <b>Blog Posts</b>
+    - [How I landed a full stack developer job without a tech degree or work experience](http://bit.ly/2D06sl5) by [Charlie Jeppsson](https://github.com/charliejeppsson)
 
 ## 8.2. Back-end
 
 ## 8.3. DB
+* <b>Visualization</b>
+    - [DrawSQL](https://drawsql.app/) : Create, visualize and collaborate on database entity relationship diagrams
 
 ## 8.4. Etc
 * <b>Online Code Editor</b>
