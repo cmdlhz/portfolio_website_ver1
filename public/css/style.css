@@ -475,6 +475,12 @@ footer {
   padding-right: 0px;
 }
 
+#chinese i {
+  color: red;
+  font-size: 48px;
+  display: inline-block;
+}
+
 .h1_test {
   font-weight: 600;
   font-size: 48px;

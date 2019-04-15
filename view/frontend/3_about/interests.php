@@ -6,6 +6,11 @@
 <section>
     <article id="chinese">
         <div>chinese</div>
+        <i class="material-icons">feedback</i>
+        <i class="material-icons-outlined">feedback</i>
+        <i class="material-icons-two-tone">feedback</i>
+        <i class="material-icons-round">feedback</i>
+        <i class="material-icons-sharp">feedback</i>
     </article>
 </section>
 <?php $content = ob_get_clean(); ?>
