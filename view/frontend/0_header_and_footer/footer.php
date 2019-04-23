@@ -51,5 +51,10 @@
                 <i class="fab fa-dribbble fa-lg"></i>
             </a>
         </li>
+        <li>
+            <a href="https://www.instagram.com/cmdlhz/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </li>
     </ul>
 </footer>
